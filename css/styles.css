@@ -694,6 +694,7 @@ img {
   height: 30px;
   border-radius: 50%;
   background: var(--primary-dark-txt);
+  display: flex;
   justify-content: center;
   align-items: center;
 }
