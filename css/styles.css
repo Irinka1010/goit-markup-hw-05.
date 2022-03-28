@@ -143,14 +143,13 @@ ol {
 .header-item:last-child {
   margin: 0;
 }
-.link-studio {
+.curent {
   position: relative;
 }
 .link-portfolio {
   position: relative;
 }
-.link-studio::after,
-.link-portfolio::after {
+.curent::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -702,9 +701,8 @@ img {
   background: var(--primary-dark-txt);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-}
-.modal-icon {
   display: flex;
-  align-items: center;
+
   justify-content: center;
+  align-items: center;
 }
